@@ -28,13 +28,14 @@
 require_once(__DIR__ . '/../../config.php');
 require_once($CFG->libdir . '/adminlib.php');
 
-admin_externalpage_setup('reportcompletionreport');
-require_login();
+// admin_externalpage_setup('reportcompletionreport');
+// require_login();
 $context = context_system::instance();
 $PAGE->set_context($context);
 require_capability('report/coursecompletionreport:view', $context);
 require_login();
 require_admin();
 echo $OUTPUT->header();
+$table = new html_table();
 
 echo $OUTPUT->footer();
