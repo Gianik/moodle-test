@@ -6,3 +6,5 @@ I attempted two angles on the test first as a local plugin and second as a repor
 Both attempts resulted in the same error, access denied upon accessing the index.php.
 
 Both attempts were inspired or based on an existing plugin:
+Course completion overview
+https://moodle.org/plugins/report_completionoverview
