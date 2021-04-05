@@ -42,5 +42,5 @@ $context = context_system::instance();
 $PAGE->set_context($context);
 require_capability('local/coursecompletionreport:view', $context);
 echo $OUTPUT->header();
-
+$table = new html_table();
 echo $OUTPUT->footer();
